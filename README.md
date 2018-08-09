@@ -4,10 +4,27 @@
 - nginx
 - mysql
 
-## CMD
+## Directory
+
+``` tree  
+.
+├── README.md
+├── data
+│
+├── docker-compose.yml
+├── ghost
+│   ├── Dockerfile
+│   └── config.js
+└── nginx
+    ├── Dockerfile
+    ├── nginx.conf
+    └── static-web-server.conf
+```
+
+## Run
 
 ``` cmd
-git clone ...
+git clone https://github.com/Jackliu007888/docker-compose-demo
 
 docker-compose build
 
